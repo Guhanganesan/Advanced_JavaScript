@@ -1,3 +1,0 @@
-This is my file
-I have added second line in myfile
-I have added the third line
