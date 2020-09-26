@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick = "check()"> click</button>
+<br>
+<p id="name"> Ganesan </p>
+<script>
+function check()
+{
+    if (typeof(Storage) !== "undefined") {
+    // Store
+    localStorage.setItem("lastname", "Guhan");
+    // Retrieve
+    document.getElementById("name").innerHTML =        localStorage.getItem("lastname");
+    }
+}
+</script>
+</body>
+</html>
